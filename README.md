@@ -29,3 +29,25 @@ ou par une défaite si le joueur touche un ennemi.
 ---
 
 ## 📁 Structure du projet
+
+├── assets/ # Images et fichiers de niveaux
+├── include/ # Fichiers .h
+├── src/ # Fichiers .cpp
+├── s102.cbp # Projet Code::Blocks
+└── README.md
+
+
+---
+
+## ▶️ Compilation et exécution
+1. Ouvrir le fichier `s102.cbp` avec Code::Blocks
+2. Compiler le projet
+3. Lancer l’exécutable
+
+⚠️ Les fichiers du moteur (`Moteur` et `Image`) ne doivent pas être modifiés.
+
+---
+
+## 👤 Auteur
+- Nom : *Khalil ben hamza*
+- Projet réalisé dans le cadre d’un enseignement universitaire
