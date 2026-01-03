@@ -2,8 +2,6 @@
 # Jeu d’aventure 2D en C++
 
 ## 📖 Description
-Ce projet est un jeu vidéo 2D développé en C++ dans le cadre d’un projet universitaire.
-Il utilise un moteur fourni basé sur la bibliothèque SDL2 (via les classes `Moteur` et `Image`).
 
 Le joueur contrôle un personnage sur une grille.
 L’objectif est de collecter tous les bonus du niveau tout en évitant les ennemis.
