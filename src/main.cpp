@@ -7,6 +7,7 @@
 #include "Dictionnaire.h"
 #include "test.h"
 #include "Niveau.h"
+#include <ctime>
 #include <stdexcept>
 
 using namespace std;
@@ -17,7 +18,7 @@ int main(int, char**) // Version special du main, ne pas modifier
     {
         // Initialisation du jeu
         Moteur moteur("Mon super jeu vidéo");
-
+        int randomPosition;
         // TODO: charger images, creer personnages, etc.
         Image fond(moteur, "assets/fond.png");
         Image tuiles(moteur,"assets/objets.png");
@@ -31,9 +32,15 @@ int main(int, char**) // Version special du main, ne pas modifier
         int x=0;
         Image pers;
         pers=Image(moteur,"assets/personnages.png");
-        Avatar chevalier(pers,2*TAILLE_CASE,3*TAILLE_CASE,5,0,BAS);
+        Avatar chevalier(pers,1*TAILLE_CASE,2*TAILLE_CASE,5,0,BAS);
+        srand(time(nullptr));
+
+
+        cout<<"randomPosition "<<randomPosition<<endl;
         Ennemi ennemi1(pers,5*TAILLE_CASE,TAILLE_CASE,9,0,HAUT);
         Ennemi ennemi2(pers,TAILLE_CASE,5*TAILLE_CASE,6,4,DROITE);
+
+
         ///*******seance4/5
         Image objets(moteur, "assets/objets.png");
         Dictionnaire dictionnaire("assets/dictionnaire.txt");

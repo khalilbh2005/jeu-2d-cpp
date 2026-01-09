@@ -15,12 +15,14 @@ void Ennemi::dessiner() const
 
 void Ennemi::avancer(const Niveau& niveau)
 {
-    if (!(_perso.peutBougerVers(_perso.getDirection(),niveau)))
-    {
-        _perso.inverserDirection();
+    Direction d=(Direction)(_perso.getDirection());
+    d =(Direction)(rand() % 4);
+    cout<<"direction d"<<d<<endl;
+    while(!(_perso.peutBougerVers(d,niveau))){
+        d =(Direction)(rand() % 4);
     }
 
-    switch (_perso.getDirection())
+    switch (d)
     {
     case (DROITE):
         _perso.deplacer(TAILLE_CASE,0);
@@ -35,6 +37,7 @@ void Ennemi::avancer(const Niveau& niveau)
         _perso.deplacer(0,-TAILLE_CASE);
         break;
     }
+
 
 }
 

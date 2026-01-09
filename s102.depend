@@ -56,24 +56,24 @@
 
 1766142787 source:c:\users\gbamazi\documents\code c++\inidev 2\projet\s102\src\objet.cpp
 
-1767447132 source:p:\final_s102\src\avatar .cpp
+1767450734 source:p:\final_s102\src\avatar .cpp
 	"Personnage.h"
 	"Ennemi.h"
 	"Avatar.h"
 	"Moteur.h"
 	<stdlib.h>
 
-1767447169 source:p:\final_s102\src\ennemi.cpp
+1767956542 source:p:\final_s102\src\ennemi.cpp
 	"Ennemi.h"
 	"Personnage.h"
 	"Moteur.h"
 
-1766423390 source:p:\final_s102\src\image.cpp
+1767448870 source:p:\final_s102\src\image.cpp
 	<SDL_image.h>
 	<exception>
 	"Image.h"
 
-1767447067 source:p:\final_s102\src\main.cpp
+1767954093 source:p:\final_s102\src\main.cpp
 	<vector>
 	"Moteur.h"
 	"Personnage.h"
@@ -83,32 +83,33 @@
 	"Dictionnaire.h"
 	"test.h"
 	"Niveau.h"
+	<ctime>
 	<stdexcept>
 
-1766423390 source:p:\final_s102\src\moteur.cpp
+1767448870 source:p:\final_s102\src\moteur.cpp
 	<SDL_image.h>
 	"Moteur.h"
 
-1767447197 source:p:\final_s102\src\personnage.cpp
+1767450734 source:p:\final_s102\src\personnage.cpp
 	"Personnage.h"
 	"Moteur.h"
 	"Niveau.h"
 	<stdlib.h>
 
-1767447163 source:p:\final_s102\src\dictionnaire.cpp
+1767448870 source:p:\final_s102\src\dictionnaire.cpp
 	"Tuile.h"
 	"Dictionnaire.h"
 	<fstream>
 	<iostream>
 
-1767447190 source:p:\final_s102\src\objet.cpp
+1767448870 source:p:\final_s102\src\objet.cpp
 	"Objet.h"
 	"Dictionnaire.h"
 	"Moteur.h"
 	"Image.h"
 	<stdlib.h>
 
-1767447202 source:p:\final_s102\src\test.cpp
+1767448870 source:p:\final_s102\src\test.cpp
 	<string>
 	<iostream>
 	<vector>
@@ -116,12 +117,12 @@
 	"Tuile.h"
 	"test.h"
 
-1767447144 source:p:\final_s102\src\tuile.cpp
+1767448870 source:p:\final_s102\src\tuile.cpp
 	"Tuile.h"
 	<stdlib.h>
 	<iostream>
 
-1767447179 source:p:\final_s102\src\niveau.cpp
+1767448870 source:p:\final_s102\src\niveau.cpp
 	<fstream>
 	<iostream>
 	"Dictionnaire.h"
